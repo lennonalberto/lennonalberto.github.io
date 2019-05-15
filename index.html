@@ -7,103 +7,126 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Lennon's Resume</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Slab" rel="stylesheet">
-
-  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" /> -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <!-- <link rel="stylesheet" href="css/basic.css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Slab:100,300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
-  
 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="container">
-        <div class="foto">foto</div>
-        <div class="header">header</div>
-        <div class="sidebar">sidebar</div>
-        <div class="main">main</div>
+  <div class="container">
+    <div class="main">
+      <div class="photo-box">
+        <img class="photo" src="img/img_avatar.png" alt="Profile picture">
+      </div>
+
+      <a class="pdf-button" href="/resume.pdf">Download Resume</a>
     </div>
 
+    <div class="header">
+      <div class="title">
+        <h1>Lennon A. Santos</h1>
+        <h2>Web Developer</h2>
+      </div>
+      <div class="infos">
+          <div><i class="fas fa-globe-americas"></i> Location </div>
+          <div> Curitiba, PR, Brazil</div>
+          <div><i class="fas fa-phone"></i>  +55 41 98821 4090</div>
+          <div><i class="fas fa-at"></i> lennonalberto@gmail.com </div>
+          <div><i class="fab fa-skype"></i> live:lennonasantos </div>
 
-
-
-  <!-- <div class="container">
-
-    <div class="menu"></div>
-    <div class="content"></div>
-    <div class="footer"></div>
-  </div> -->
-
-  <!-- <div class="container" hidden="true">
-    <div class="jumbotron">
-      <h1 class="display-4">Hello, world!</h1>
-      <p class="lead">
-        Fast learning computer programmer with 5 years experience in diverse array projects of different areas.
-        Highly experienced in .Net back-end development.
-        Agile and independent in providing solutions.
-      </p>
-      <hr class="my-4" />
-      <p>
-        It uses utility classes for typography and spacing to space content
-        out within the larger container.
-      </p>
-      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </div>
+      <div>
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-github"></i>
+        <i class="fab fa-linkedin"></i>
+      </div>
     </div>
 
-    <h3>Experience</h3>
+    <div class="section">
+      <h4 class="section-title">About</h4>
+    </div>
+    <div class="section panel">
+      Fast learning computer programmer with 5 years experience in diverse array projects of different areas.
+      Highly experienced in .Net back-end development. Agile and independent in providing solutions.
+    </div>
+    <div class="section">
+      <h4 class="section-title">Experience</h4>
+    </div>
+    <div class="section panel">
+      <div class="period">2018/04 - Present</div>
+      <h4>Systems Development Analyst</h4>
+      <h5>Instituto das Cidades Inteligentes - Curitiba, Brazil</h5>
+      <ul class="section-list">
+        <li>
+          Implemented, tested and debugged back-end API’s for mobile
+          applications for public administration and public transport in
+          C#/Asp.net Core.
+        </li>
+        <li>
+          Integrated services with third party APIs (e.g. Google Maps).
+        </li>
+        <li>
+          Developed queries (Procedures, Views, Etc.) in SQL server.
+        </li>
+        <li>
+          Built and configured a Chatbot app for Google Assistant using
+          DialogFlow.
+        </li>
+      </ul>
+      <br />
+      <hr>
+      <br />
+      <div class="period">2018/04 - Present</div>
+      <h4>Backend Developer</h4>
+      <h5>Neomode - Curitiba, Brazil</h5>
+      <ul class="section-list">
+        <li>
+          Developed back-end API for mobile applications for e-commerce mobile
+          apps.
+        </li>
+        <li>
+          Developed integration with cloud commerce and payment gateway APIs.
+        </li>
+      </ul>
+      <br />
+      <hr>
+      <br />
+      <div class="period">2018/04 - Present</div>
+      <h4>Computer Programmer</h4>
+      <h5>MPS Informática - Curitiba, Brazil</h5>
+      <ul class="section-list">
+        <li>
+          Maintained and developed new functionalities in Microsoft Dynamics AX
+          ERP system.
+        </li>
+        <li>
+          Developed and maintained Delphi 7 and Asp.Net software for health
+          insurance and financial organizations.
+        </li>
+        <li>Developed queries (Procedures, Views, Etc.) in SQL server.</li>
+        <li>
+          Communicated directly with client to address new requirements and
+          problems.
+        </li>
+      </ul>
+    </div>
+    <div class="section">
+      <h4 class="section-title">Education</h4>
+    </div>
+    <div class="section panel">
+      <div class="period">2009/08 - 2015/08</div>
+      <h4>Bachelor in Computer Science</h4>
+      <h5>Universidade Federal do Paraná - Curitiba, Brazil</h5>
+    </div>
+  </div>
 
-    <h5>Systems Development Analyst</h5>
-    <h6>Instituto das Cidades Inteligentes - Curitiba, Brazil</h6>
-    <ul>
-      <li>
-        Implemented, tested and debugged back-end API’s for mobile
-        applications for public administration and public transport in
-        C#/Asp.net Core.
-      </li>
-      <li>
-        Integrated services with third party APIs (e.g. Google Maps).
-      </li>
-      <li>
-        Developed queries (Procedures, Views, Etc.) in SQL server.
-      </li>
-      <li>
-        Built and configured a Chatbot app for Google Assistant using
-        DialogFlow.
-      </li>
-    </ul>
-    <br />
-    <h5>Backend Developer</h5>
-    <h6>Neomode - Curitiba, Brazil</h6>
-    <ul>
-      <li>
-        Developed back-end API for mobile applications for e-commerce mobile
-        apps.
-      </li>
-      <li>
-        Developed integration with cloud commerce and payment gateway APIs.
-      </li>
-    </ul>
-    <br />
-    <h5>Computer Programmer</h5>
-    <h6>MPS Informática - Curitiba, Brazil</h6>
-    <ul>
-      <li>
-        Maintained and developed new functionalities in Microsoft Dynamics AX
-        ERP system.
-      </li>
-      <li>
-        Developed and maintained Delphi 7 and Asp.Net software for health
-        insurance and financial organizations.
-      </li>
-      <li>Developed queries (Procedures, Views, Etc.) in SQL server.</li>
-      <li>
-        Communicated directly with client to address new requirements and
-        problems.
-      </li>
-    </ul>
-  </div> -->
+  <div class="footer">Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a
+      href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a
+      href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+  </div>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">

@@ -30,8 +30,22 @@ body {
 
 .pdf-button {
     border-style: solid;
-    border-width: 5px;
-    border-color: #2c3e50
+    border-width: 2px;
+    border-color: #2c3e50;
+    border-radius: 20px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #63778b;
+    border-color: #63778b;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.pdf-button:hover {
+    background-color: #63778b;
+    color: white;
+    box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.3);
 }
 
 .section {
@@ -50,20 +64,46 @@ body {
 }
 
 .main {
-    margin: auto
+    text-align: center;
+}
+
+.icon {
+    color: #63778b;
+}
+
+.infos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3rem;
+
+}
+
+.social-icons {
+    font-size: 3rem;
+    letter-spacing: 0.8rem;
+}
+
+.social-icons a {
+    color: #63778b;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #324354;
+    text-decoration: none;
 }
 
 .photo {
     height: 18rem;
     border-radius: 50%;
-    vertical-align: middle;
-    margin: auto
+    box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
 }
 
 h1 {
-    font-family: 'Roboto Slab', 'Georgia', 'Cambria', "Times New Roman";
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 300;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
 }
 
 h2 {

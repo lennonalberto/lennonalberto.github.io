@@ -23,7 +23,7 @@ body {
     grid-template-columns: 2fr 8fr;
     max-width: 1080px;
     margin: 4rem auto;
-    padding: 3em;
+    padding: 2em;
     background-color: #f4f4f4;
     box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
 }
@@ -75,7 +75,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 3rem;
-
 }
 
 .social-icons {
@@ -171,11 +170,59 @@ hr {
 }
 
 @media screen and (max-width: 800px) {
+    html {
+        font-size: 60%;
+    }
+    
+    .container{
+        padding: 0.3em;
+    }
+
     .container div {
         grid-column: span 2;
     }
 
     .title {
         justify-items: center;
+    }
+    
+    .section {
+        padding: 3rem;
+    }
+    
+    .infos {
+        text-align: center;
+    }
+
+    .section-header{
+        float: right;
+        text-align: center;
+        padding-bottom: 0.1rem;
+        padding-top: 1rem;
+    }
+    
+    .section-title {
+        float: none;
+        margin-bottom: 0;
+    }
+
+    .period {
+        float: none;
+        text-align: center;
+        max-width: 15rem;
+        margin: auto;
+        margin-top: 1rem;
+    }
+
+    h4 {
+        text-align: center;
+    }
+    
+    h5 {
+        text-align: center;
+    }
+
+    .title {
+        text-align: center;
     }
 }
